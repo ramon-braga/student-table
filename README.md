@@ -1,36 +1,21 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Student Table
 
-## Getting Started
+## Description
 
-First, run the development server:
+This project is a student table developed using React, Next.js, Tailwind CSS, and TypeScript. The table displays important information about the students, including their names, emails, enrollment status, grades 1 and 2, as well as the average. The design and logic of the project were created from scratch by myself, representing my first project using these technologies. Additionally, the application is fully responsive, ensuring a consistent experience across a wide range of devices.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Key Development Folders
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- `src`: Contains the `Page.tsx` file in the `app` folder, which serves as the main entry point of the application.
+- `src/components`: Contains the reusable components `StudentCard.tsx` and `Table.tsx`.
+- `src/data`: Contains the `Students.ts` file, which contains an array of objects used to provide the data displayed in the table.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Ensure you have Node.js installed. Then, run the following command to install the dependencies:
 
-## Learn More
+## How to Run
 
-To learn more about Next.js, take a look at the following resources:
+To start the development server, use the following command: npm run dev
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Then, open your browser and go to `http://localhost:3000` to view the application.
